@@ -21,6 +21,7 @@ class SearchBar extends React.Component {
               onChange={e => this.setState({ term: e.target.value })}
               type="text"
               id="video-search"
+              placeholder="search for a video"
             />
           </div>
         </form>
